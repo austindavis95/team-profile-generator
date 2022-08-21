@@ -5,7 +5,7 @@ test('retrieves interns school', () => {
     const numberValue = 50;
     const intern = new Intern('John', 1023, 'johndoe@coding.com', numberValue);
     
-    expect(intern.getSchool).toBe(numberValue);
+    expect(intern.getSchool()).toBe(numberValue);
 });
 
 test('retrieves employee role', () => {

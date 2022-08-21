@@ -4,32 +4,32 @@ const Employee = require("../lib/Employee");
 test('creats new engineer', () => {
     let engineer = new Engineer('John', 1023, 'johndoe@coding.com');
 
-    expect(employee.name).toEqual(expect.any(String));
-    expect(employee.id).toEqual(expect.any(Number));
-    expect(employee.email).toEqual(expect.any(String));
+    expect(engineer.name).toEqual(expect.any(String));
+    expect(engineer.id).toEqual(expect.any(Number));
+    expect(engineer.email).toEqual(expect.any(String));
 });
 
 test('retrives employee name', () => {
-    let employee = new Employee('John', 1023, 'johndoe@coding.com');
+    let engineer = new Employee('John', 1023, 'johndoe@coding.com');
 
-    expect(employee.getName()).toEqual(expect.any(String));
+    expect(engineer.getName()).toEqual(expect.any(String));
 });
 
 test('retrives employee ID', () => {
-    let employee = new Employee('John', 1023, 'johndoe@coding.com');
+    let engineer = new Employee('John', 1023, 'johndoe@coding.com');
 
-    expect(employee.getId()).toEqual(expect.any(Number));
+    expect(engineer.getId()).toEqual(expect.any(Number));
 });
 
 test('retrives employee email', () => {
-    let employee = new Employee('John', 1023, 'johndoe@coding.com');
+    let engineer = new Employee('John', 1023, 'johndoe@coding.com');
 
-    expect(employee.getEmail()).toEqual(expect.any(String));
+    expect(engineer.getEmail()).toEqual(expect.any(String));
 });
 
 test('retrives employee role', () => {
-    let employee = new Employee('John', 1023, 'johndoe@coding.com');
+    let engineer = new Employee('John', 1023, 'johndoe@coding.com');
 
-    expect(employee.getRole()).toEqual("Employee");
+    expect(engineer.getRole()).toEqual("Employee");
     
 });
