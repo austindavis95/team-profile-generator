@@ -25,5 +25,22 @@
     align-content: center;
   }
   
+  .employee-container {
+    border: 1px solid #ccc;
+    padding: 0;
+    margin: 15px 0;
+  }
   
+  .employee-header {
+    background: darkblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .employee-info {
+    text-align: center;
+    color: black;
+    padding: 20px;
+  }
  
